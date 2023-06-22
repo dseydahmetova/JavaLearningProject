@@ -4,22 +4,25 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        final byte monthsInYear = 12;
+        final byte percent = 100;
+
         Scanner calc = new Scanner(System.in);
 
         System.out.print("Principal: ");
-        double principal = calc.nextDouble();
+        int principal = calc.nextInt();
 
         System.out.print("Annual Interest Rate: ");
-        double rate = calc.nextDouble();
-        double monthRate = rate / 100 / 12;
+        float rate = calc.nextFloat();
+        float monthRate = rate / percent / monthsInYear;
 
         System.out.print("Period(years): ");
-        double period = calc.nextDouble();
-        double monthPeriod = period * 12;
+        byte  years = calc.nextByte();
+        double numberOfPeriods = years * monthsInYear;
 
         System.out.print("Mortgage: ");
 
-       double mortgage = principal * monthRate * Math.pow((1 + monthRate), monthPeriod) / (Math.pow((1 + monthRate), monthPeriod) - 1);
+        double mortgage = principal * monthRate * Math.pow((1 + monthRate), numberOfPeriods) / (Math.pow((1 + monthRate), numberOfPeriods) - 1);
         NumberFormat currency = NumberFormat.getCurrencyInstance();
         System.out.print(currency.format(mortgage));
     }
