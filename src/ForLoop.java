@@ -11,17 +11,17 @@ public class ForLoop {
 //            i--;
 //        }
 
-        String input = "";
-        Scanner scanner = new Scanner(System.in);
-        while(true){
-            System.out.print("Input: ");
-            input = scanner.next().toLowerCase();
-            if(input.equals("pass"))
-                continue;
-            if(input.equals("quit"))
-                break;
-            System.out.println(input);
-        }
+//        String input = "";
+//        Scanner scanner = new Scanner(System.in);
+//        while(true){
+//            System.out.print("Input: ");
+//            input = scanner.next().toLowerCase();
+//            if(input.equals("pass"))
+//                continue;
+//            if(input.equals("quit"))
+//                break;
+//            System.out.println(input);
+//        }
 
 
 
@@ -30,5 +30,14 @@ public class ForLoop {
 //            input = scanner.next().toLowerCase();
 //        }
 //        while(!input.equals("quit"))
+
+
+        String[] fruits = {"Apple", "Mango", "Orange"};
+
+        for(int i =0; i < fruits.length; i++)
+            System.out.println(fruits[i]);
+
+        for(String fruit : fruits)
+            System.out.println(fruit);
     }
 }
