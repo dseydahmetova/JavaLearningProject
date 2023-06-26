@@ -12,5 +12,11 @@ public class Array {
         char vowels2[] = {'a', 'e', 'i', 'o', 'u'};
 
         System.out.println(Arrays.toString(vowels));
+
+        int numbers[] = {1, 2, 3, 4, 5};
+// the type of number should be the same as the type of an array
+        for(int number : numbers) {
+            System.out.println(number);
+        }
     }}
 
