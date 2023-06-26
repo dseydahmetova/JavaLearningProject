@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8180f0-fb1a-41cd-ab47-b4630dc3a75b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Weather.java" afterDir="false" />
+    <list default="true" id="9b8180f0-fb1a-41cd-ab47-b4630dc3a75b" name="Changes" comment="shortcut of for">
+      <change afterPath="$PROJECT_DIR$/src/HasMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,133 @@
       <option name="presentableId" value="Default" />
       <updated>1686794501165</updated>
     </task>
+    <task id="LOCAL-00001" summary="java condition">
+      <created>1687486550193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687486550193</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java condition">
+      <created>1687486837111</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687486837111</updated>
+    </task>
+    <task id="LOCAL-00003" summary="no need of curly braces after else if statement">
+      <created>1687616959317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687616959317</updated>
+    </task>
+    <task id="LOCAL-00004" summary="if condition">
+      <created>1687617377814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687617377814</updated>
+    </task>
+    <task id="LOCAL-00005" summary="improvement of the code">
+      <created>1687617455042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687617455042</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ternary operator">
+      <created>1687617674761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687617674761</updated>
+    </task>
+    <task id="LOCAL-00007" summary="switch statement">
+      <created>1687618065026</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687618065026</updated>
+    </task>
+    <task id="LOCAL-00008" summary="FizzBuzz">
+      <created>1687619105865</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687619105865</updated>
+    </task>
+    <task id="LOCAL-00009" summary="loops">
+      <created>1687620284932</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687620284932</updated>
+    </task>
+    <task id="LOCAL-00010" summary="foreach">
+      <created>1687620612973</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687620612973</updated>
+    </task>
+    <task id="LOCAL-00011" summary="control flow">
+      <created>1687621863048</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687621863048</updated>
+    </task>
+    <task id="LOCAL-00012" summary="created calculator">
+      <created>1687745313646</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687745313646</updated>
+    </task>
+    <task id="LOCAL-00013" summary="checking for zero division">
+      <created>1687745475165</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687745475165</updated>
+    </task>
+    <task id="LOCAL-00014" summary="switch method">
+      <created>1687745942958</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687745942958</updated>
+    </task>
+    <task id="LOCAL-00015" summary="switch method">
+      <created>1687748041212</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687748041212</updated>
+    </task>
+    <task id="LOCAL-00016" summary="using nested array in java">
+      <created>1687748692176</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687748692176</updated>
+    </task>
+    <task id="LOCAL-00017" summary="using nested array in java">
+      <created>1687748702584</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687748702584</updated>
+    </task>
+    <task id="LOCAL-00018" summary="shortcut of for">
+      <created>1687749241625</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687749241625</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -59,5 +186,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java condition" />
+    <MESSAGE value="no need of curly braces after else if statement" />
+    <MESSAGE value="if condition" />
+    <MESSAGE value="improvement of the code" />
+    <MESSAGE value="ternary operator" />
+    <MESSAGE value="switch statement" />
+    <MESSAGE value="FizzBuzz" />
+    <MESSAGE value="loops" />
+    <MESSAGE value="foreach" />
+    <MESSAGE value="control flow" />
+    <MESSAGE value="created calculator" />
+    <MESSAGE value="checking for zero division" />
+    <MESSAGE value="switch method" />
+    <MESSAGE value="using nested array in java" />
+    <MESSAGE value="shortcut of for" />
+    <option name="LAST_COMMIT_MESSAGE" value="shortcut of for" />
   </component>
 </project>
