@@ -24,25 +24,26 @@ public class Main {
         while (true) {
             System.out.print("Annual Interest Rate: ");
             float rate = calc.nextFloat();
-            if (rate >= 1 && rate <= 30){
+            if (rate >= 1 && rate <= 30) {
                 monthRate = rate / percent / monthsInYear;
-            break;
+                break;
+            }
+            System.out.println("Enter a number greater than 0 and less than or equal to 30.");
         }
-        System.out.println("Enter a number greater than 0 and less than or equal to 30.");
-    }
 
-        while(true) {
-        System.out.print("Period(years): ");
-        byte  years = calc.nextByte();
-        if(years >= 1 && years <= 30) {
-            numberOfPeriods = years * monthsInYear;
-            break;
-        }
+        while (true) {
+            System.out.print("Period(years): ");
+            byte years = calc.nextByte();
+            if (years >= 1 && years <= 30) {
+                numberOfPeriods = years * monthsInYear;
+                break;
+            }
             System.out.println("Enter a number between 1 and 30");
-        System.out.print("Mortgage: ");
+            System.out.print("Mortgage: ");
 
-        double mortgage = principal * monthRate * Math.pow((1 + monthRate), numberOfPeriods) / (Math.pow((1 + monthRate), numberOfPeriods) - 1);
-        NumberFormat currency = NumberFormat.getCurrencyInstance();
-        System.out.print(currency.format(mortgage));
+            double mortgage = principal * monthRate * Math.pow((1 + monthRate), numberOfPeriods) / (Math.pow((1 + monthRate), numberOfPeriods) - 1);
+            NumberFormat currency = NumberFormat.getCurrencyInstance();
+            System.out.print(currency.format(mortgage));
+        }
     }
 }
