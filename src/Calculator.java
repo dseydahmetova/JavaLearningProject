@@ -14,21 +14,43 @@ public class Calculator {
         System.out.println("What operations do you want to perform? ");
         String operation = scanner.nextLine();
 
-        if(operation.equals("sum")) {
-            System.out.printf("%f + %f = %f", num1, num2, num1 + num2);
-        } else if (operation.equals("sub")) {
-            System.out.printf("%f - %f = %f", num1, num2, num1 - num2);
-        } else if (operation.equals("mul")) {
-            System.out.printf("%f * %f = %f", num1, num2, num1 * num2);
-        } else if (operation.equals("div")) {
-            if (num2 == 0) {
+//        if(operation.equals("sum")) {
+//            System.out.printf("%f + %f = %f", num1, num2, num1 + num2);
+//        } else if (operation.equals("sub")) {
+//            System.out.printf("%f - %f = %f", num1, num2, num1 - num2);
+//        } else if (operation.equals("mul")) {
+//            System.out.printf("%f * %f = %f", num1, num2, num1 * num2);
+//        } else if (operation.equals("div")) {
+//            if (num2 == 0) {
+//                System.out.println("Cannot divide by zero.");
+//            } else {
+//                System.out.printf("%f / %f = %f", num1, num2, num1 / num2);
+//            }
+//        }
+//            else {
+//            System.out.printf("%s is not a supported operation", operation);
+//        }
+
+        switch (operation) {
+            case "sum":
+                System.out.printf("%f + %f = %f", num1, num2, num1 + num2);
+            break;
+            case "sub":
+                System.out.printf("%f - %f = %f", num1, num2, num1 - num2);
+                break;
+            case "mul":
+                System.out.printf("%f * %f = %f", num1, num2, num1 * num2);
+                break;
+            case "div":
+                if (num2 == 0) {
                 System.out.println("Cannot divide by zero.");
             } else {
                 System.out.printf("%f / %f = %f", num1, num2, num1 / num2);
             }
-        }
-            else {
-            System.out.printf("%s is not a supported operation", operation);
+                break;
+            default:
+                System.out.printf("%s is not a supported operation", operation);
+
         }
 
     }}
