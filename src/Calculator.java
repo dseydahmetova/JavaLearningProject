@@ -21,8 +21,13 @@ public class Calculator {
         } else if (operation.equals("mul")) {
             System.out.printf("%f * %f = %f", num1, num2, num1 * num2);
         } else if (operation.equals("div")) {
-            System.out.printf("%f / %f = %f", num1, num2, num1 / num2);
-        } else {
+            if (num2 == 0) {
+                System.out.println("Cannot divide by zero.");
+            } else {
+                System.out.printf("%f / %f = %f", num1, num2, num1 / num2);
+            }
+        }
+            else {
             System.out.printf("%s is not a supported operation", operation);
         }
 
