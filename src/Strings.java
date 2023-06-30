@@ -13,11 +13,9 @@ public class Strings {
             smallest = s.substring(0,k);
             for(int i = 0; i <= s.length() - k; i++) {
                 arr[i] = s.substring(i,i+k);
-                if(arr[i].compareTo(smallest) < 0) smallest= arr[i];
+                if(arr[i].compareTo(smallest) < 0) smallest = arr[i];
                 if(largest.compareTo(arr[i]) < 0) largest = arr[i];
             }
-
-
             return smallest + "\n" + largest;
         }
 
