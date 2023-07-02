@@ -14,11 +14,14 @@ public class REGEX {
 
 //Write your code here
 class MyRegex {
-    String A = "([01]?[0-9]{1,2}|";
-    String B = "2[0-4][0-9]|";
-    String C = "25[0-5])";
-    String octet = A+B+C;
-    String pattern = octet+"."+octet+"."+octet+"."+octet;
+//    String A = "([01]?[0-9]{1,2}|";
+//    String B = "2[0-4][0-9]|";
+//    String C = "25[0-5])";
+//    String octet = A+B+C;
+//    String pattern = octet+"."+octet+"."+octet+"."+octet;
+
+    final String x = "(([0-1]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))";
+    final String pattern = "^"+x+"."+x+"."+x+"."+x;
 
 }
 
