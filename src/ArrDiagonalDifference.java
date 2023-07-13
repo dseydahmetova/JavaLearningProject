@@ -28,33 +28,30 @@
     import java.util.*;
     public class ArrDiagonalDifference {
 
-        public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
-            int rowcol = sc.nextInt();
+       public static void main(String[] args){
+           Scanner sc = new Scanner(System.in);
+           int rowcol = sc.nextInt();
+           int[][] arr = new int[rowcol][rowcol];
 
-            int[][] array = new int[rowcol][rowcol];
-            for (int i = 0; i < rowcol; i++) {
-                for (int j = 0; j < rowcol; j++) {
-                    array[i][j] = sc.nextInt();
-                }
-            }
-            sc.close();
+          for(int i=0; i<rowcol; i++){
+              for(int j=0; j< rowcol; j++){
+                  arr[i][j]=sc.nextInt();
+              }
+          }
+          sc.close();
 
-            int leftDownRightSum = 0;
-            int index = 0;
-            while (index < array.length) {
-                leftDownRightSum += array[index][index];
-                index++;
-            }
+          int sum1=0;
+          int index=0;
+          while(index<arr.length) {
+              sum1+=arr[index][index];
+              index++;
+          }
 
-            int rightDownLeftSum = 0;
-            for (int row = 0, col = array.length - 1; row < array.length;
-                 row++, col--) {
-
-                rightDownLeftSum += array[row][col];
-            }
-
-            System.out.println(Math.abs(leftDownRightSum - rightDownLeftSum));
-        }
+          int sum2=0;
+          for(int row=0, col=arr.length-1; row<arr.length; row++, col--){
+              sum2+= arr[row][col];
+          }
+           System.out.println(Math.abs(sum1-sum2));
+       }
     }
 
